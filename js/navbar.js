@@ -9,7 +9,8 @@ $(document).ready(function () {
    
     $('li').click(function () {
         $('ul').slideUp('active');
-        $('header__nav-toggle-icon').toggleClass('rotated-triangle-menu-li');
+        $('.header__nav-toggle-icon').toggleClass('rotated-menu-icon');
+        $('.header__nav-toggle-icon').toggleClass('rotated-triangle-menu-li');
          $('.header__triangle-animation-right').show('active');
         $('.header__triangle-animation-left').hide('active');
     });
