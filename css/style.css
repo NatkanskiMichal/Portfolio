@@ -97,11 +97,6 @@
 	background: rgba(60, 190, 140, 0.9);
 }
 
-.menubar__items:hover
-{
-	background: rgba(60, 190, 140, 0.7);
-}
-
 .menubar__items a
 {
 	color: rgb(249, 249, 249);
@@ -111,7 +106,7 @@
 
 .menubar__items a:hover
 {
-	color: rgb(50,190,140);
+	color: rgb(230,230,230);
     text-decoration: none;
 }
 
@@ -529,6 +524,11 @@ animation: project-image 50s infinite;
     height: 150px;
     border-radius: 50%;
 }
+    .footer
+    {
+        font-size: 10px;
+        padding-top: 25px;
+    }
 }
 
 @media (min-width:992px)
@@ -558,6 +558,11 @@ animation: project-image 50s infinite;
     height: 200px;
     border-radius: 50%;
 }
+     .footer 
+    {
+        font-size: 11px;
+        padding-top: 22px;
+    }
 }
 
 /*      end mediaQueries | start keyframes      */
