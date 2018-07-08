@@ -318,6 +318,10 @@
     text-align: center;
 }
 
+.main__skills-icon li {
+    list-style: none;
+    display: inline;
+}
 .rwd_span_text
 {
 	font-size: 16px;
