@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<title>Michał-Natkański Portfolio Front-End Developer</title>
@@ -19,22 +19,22 @@
 
 <!--Start Header -->
 	
-	<header class="header">
+	<header id="header" class="header">
 	<div class="header__logo"><span>{MN}</span></div>
 		<nav class="header__nav">
             
-			<div class="header__nav-toggle">
-                <span>
-                    <i class="fa fa-cog header__nav-toggle-icon" aria-hidden="true"></i>
-                </span>
+			<div id="nav-toggle" class="header__nav-toggle">
+                <div class="bar-one"></div>
+                <div class="bar-two"></div>
+                <div class="bar-three"></div>
 			</div>
             
 			<ul class="header__nav-menubar">
-				<li class="menubar__items home"><a href="#">Start</a></li>
-				<li class="menubar__items aboutMe"><a href="#">O mnie</a></li>
-				<li class="menubar__items skillSet"><a href="#">Umiejętności</a></li>
-				<li class="menubar__items projects"><a href="#">Projekty</a></li>
-				<li class="menubar__items contactMe"><a href="#">Kontakt</a></li>
+				<li class="menubar__items home"><a href="#header">Start</a></li>
+				<li class="menubar__items aboutMe"><a href="#about-me">O mnie</a></li>
+				<li class="menubar__items skillSet"><a href="#skills">Umiejętności</a></li>
+				<li class="menubar__items projects"><a href="#projects">Projekty</a></li>
+				<li class="menubar__items contactMe"><a href="#contact">Kontakt</a></li>
 			</ul>
             
 		</nav>
@@ -42,20 +42,16 @@
 		<div class="header__triangle-animation-right"></div>
 		<div class="header__triangle-animation-left"></div>
         
-		<hgroup class="header__hgroup">
-			<h3 class="header__hgroup-h3">
-                <span class="different-colour">M
-                </span>
-                ichał
-                <span class="different-colour">
-                    N</span>
-                atkański
-            </h3>
+		<div class="header__text">
+			<h1 class="header__text-h1">
+            <span class="different-colour">M</span>ichał
+                <span class="different-colour">N</span>atkański
+            </h1>
             
-			<h4 class="header__hgroup-h4">Front-End Developer</h4>
-            
-			<p class="header__hgroup-p">Portfolio</p>
-		</hgroup>
+			<h2 class="header__text-h2">Front-End Developer</h2>
+
+			<p class="header__text-p">Portfolio</p>
+		</div>
         
 		<div class="header__arrow">
 			<span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
@@ -67,7 +63,7 @@
 
     
 	<main class="main">
-		<div class="main__aboutMe">
+		<div id="about-me" class="main__aboutMe">
 				<h3 class="main__description">Kim jestem?</h3>
             
 			                <div class="main__text">
@@ -81,12 +77,12 @@
 		
 <!--end aboutMe-section | start skills-section -->
 		
-		<div class="main__skills">
+		<div id="skills" class="main__skills">
             <h3 class="main__description">Umiejętności</h3>
             <p class="main__text-span">Potrafię korzystać z:</p>
             <div class="main__skills-icon">
-                <span><i class="devicon-html5-plain colored"></i></span>
-                <span><i class="devicon-css3-plain colored"></i></span>
+                <span><i class="devicon-html5-plain colored" alt="HTML5 icon"></i></span>
+                <span><i class="devicon-css3-plain colored" alt="Css3 icon"></i></span>
                 <span><i class="devicon-javascript-plain colored"></i></span>
 				<span><i class="devicon-jquery-plain colored"></i></span>
 				<span><i class="devicon-bootstrap-plain colored"></i></span>
@@ -106,7 +102,7 @@
 			
 <!-- end skills-section | Start projects-section -->
         
-    <div class="main__projects">
+    <div id="projects" class="main__projects">
         <h3 class="main__description">Projekty</h3>
 
         		    <div class="main__projects-wrapper">
@@ -122,7 +118,7 @@
 	
 <!-- end project-section | start contact-section -->	
 	
-        <div class="main__contact">
+        <div id="contact" class="main__contact">
         <h3 class="main__description">Kontakt</h3>
         
         <div class="main__contact-wrapper">
@@ -156,7 +152,7 @@
         </div>    
         
     <footer class="footer">
-        <p>&copy; Copyright Michał Natkański 2018r.<br />All Rights Reserved</p>
+        <p>&copy; Copyright Michał Natkański 2018<br />All Rights Reserved</p>
     </footer>
 </main>
 </body>
