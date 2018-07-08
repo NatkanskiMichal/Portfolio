@@ -4,13 +4,13 @@ $(document).ready(function () {
         $('.bar-one').toggleClass('rotated-menu-bar-one');
         $('.bar-three').toggleClass('rotated-menu-bar-two');
         $('.bar-two').toggleClass('rotated-menu-bar-three');    
-        $('ul').slideToggle('active');
+        $('.header__nav-menubar').slideToggle('active');
         $('.header__triangle-animation-right').hide('active');
         $('.header__triangle-animation-left').show('active');
     });
    
-    $('li').click(function () {
-        $('ul').slideUp('active');
+    $('.menubar__items').click(function () {
+        $('.header__nav-menubar').slideUp('active');
         $('.bar-one').toggleClass('rotated-menu-bar-one');
         $('.bar-three').toggleClass('rotated-menu-bar-two');
         $('.bar-two').toggleClass('rotated-menu-bar-three');    
