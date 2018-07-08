@@ -27,3 +27,4 @@ $(".contactMe").on("click", function () {
 		scrollTop: $(".main__contact").offset().top
 	}, 500);
 });
+
