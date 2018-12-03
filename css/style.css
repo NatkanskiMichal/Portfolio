@@ -350,14 +350,25 @@
 
 .projects__wrapper-images
 {
-  width: 150px;
-  height: 150px;
+    width: 200px;
+    height: 150px;
     margin: 10px;
-  background-color: rgba(90, 207, 170,0.6);
--webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
--webkit-animation: project-image 2s infinite;
-animation: project-image 50s infinite;
+}
+
+.brotherski
+{
+    background-image: url(../images/brotherski-website.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.system-zarzadzania-zadaniami
+{
+    background-image: url(../images/system-zarzadzania-zadaniami.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .wrapper__images-calc
