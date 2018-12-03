@@ -357,7 +357,7 @@
 
 .brotherski
 {
-    background-image: url(../images/brotherski-website.png);
+    background-image: url(/images/brotherski-website.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -365,7 +365,7 @@
 
 .system-zarzadzania-zadaniami
 {
-    background-image: url(../images/system-zarzadzania-zadaniami.jpeg);
+    background-image: url(/images/system-zarzadzania-zadaniami.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
