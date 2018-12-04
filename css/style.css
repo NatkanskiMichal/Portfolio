@@ -332,7 +332,7 @@
 
 /*      End styles for skills section |  start styles for projects section      */
 
-.main__projects-wrapper
+.main__projects
 {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -341,44 +341,35 @@
     -webkit-box-direction: normal;
     -ms-flex-flow: column;
     flex-flow: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    color: rgb(120,120,120);
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
   }
 
-.projects__wrapper-images
+.main__projects a
 {
-    width: 200px;
-    height: 150px;
-    margin: 10px;
+    color: rgb(120,120,120); 
+    font-family: 'Montserrat', sans-serif;    
 }
 
-.brotherski
+.project-image
 {
-    background-image: url(/images/brotherski-website.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 50%;
+    height: 20%;
+    margin: 50px;
 }
 
-.system-zarzadzania-zadaniami
+.project-image:hover
 {
-    background-image: url(/images/system-zarzadzania-zadaniami.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    -webkit-transition: 1s ease-in-out;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+    -webkit-box-shadow: 1px 2px 2px 1px gray;
+    box-shadow: 1px 2px 2px 1px gray;
+    width: 55%;
+    height: 25%;
 }
 
-.wrapper__images-calc
-{
-    position: relative;
-    top: 160px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
+
+
 
 /*      End styles for projects section | start styles for contact section         */
 
@@ -602,19 +593,6 @@
 }
                      
 /*      end mediaQueries | start keyframes      */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @-webkit-keyframes logo {
 	0% {
